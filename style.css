@@ -1,14 +1,17 @@
 body {
 	margin: 0px;
 	padding: 10px;
+	background-image: url(pattern.png);
+	background-repeat: repeat-x, repeat-y;
 }
 h3 {
 	font-size: 50px;
 	font-family: Arial;
 	margin: 0px 0px 0px 0px;
 	background-color: #3399CC;
-	padding: 5px;
+	padding: 5px 5px 5px 20px;
 	color: white;
+
 }
 form {
 	font-family: Arial;
@@ -21,4 +24,13 @@ button {
 	padding: 10px 40px 10px 40px;
 	font-family: Arial;
 	font-size: 20px;
+}
+div {
+	background-color: white;
+	margin: 0px 40px 20px -40px;
+	padding: 5px 0px 5px 40px;
+	border: 1px solid #3399CC;
+}
+li{
+	font-weight: bold;
 }
