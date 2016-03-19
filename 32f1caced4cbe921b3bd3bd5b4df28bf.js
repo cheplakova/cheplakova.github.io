@@ -3,7 +3,7 @@ function TRUE_ANSWERS() {
 		return true_ans;
 }
 function Passw(marks) {
-	var password = prompt("Вы получили оценку " + marks + ". Для продолжения введите пароль" );
+	var password = prompt("Ваш результат " + marks + ". Для продолжения введите пароль" );
 	return password;
 }
 function bad_error() {
