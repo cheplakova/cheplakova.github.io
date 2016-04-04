@@ -34,10 +34,35 @@ div {
 li {
 	font-weight: bold;
 }
-p {
+.counter {
 	text-align: right;
 	font-family: Arial;
 	margin: 0px 0px 0px 0px;
 	opacity: 0.5;
 }
+ol{
+	list-style-position: inside;
+}
+.author {
+	font-size: 20px;
+	font-family: Arial;
+	margin: 0px 0px 0px 0px;
+	background-color: #3399CC;
+	padding: 5px 20px 5px 20px;
+	color: white;
+	text-align: right;
 
+}
+a:hover {
+	color: white;
+}
+a:link {
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:active{
+	color: white;
+
+}
